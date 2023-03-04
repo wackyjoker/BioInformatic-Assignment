@@ -1,0 +1,37 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build SolTub_3.0
+#!genome-build-accession NCBI_Assembly:GCF_000226075.1
+##sequence-region NW_006238927.1 1 7090834
+##species http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4113
+NW_006238927.1	RefSeq	region	1	7090834	.	+	.	ID=id0;Dbxref=taxon:4113;Name=Unknown;chromosome=Unknown;cultivar=DM 1-3 516 R44;gbkey=Src;genome=genomic;mol_type=genomic DNA
+NW_006238927.1	Gnomon	gene	73207	75755	.	+	.	ID=gene0;Dbxref=GeneID:102578245;Name=LOC102578245;gbkey=Gene;gene=LOC102578245;gene_biotype=protein_coding
+NW_006238927.1	Gnomon	mRNA	73207	74488	.	+	.	ID=rna0;Parent=gene0;Dbxref=GeneID:102578245,Genbank:XM_015312074.1;Name=XM_015312074.1;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X2;transcript_id=XM_015312074.1
+NW_006238927.1	Gnomon	exon	73207	73525	.	+	.	ID=id1;Parent=rna0;Dbxref=GeneID:102578245,Genbank:XM_015312074.1;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X2;transcript_id=XM_015312074.1
+NW_006238927.1	Gnomon	exon	73674	73777	.	+	.	ID=id2;Parent=rna0;Dbxref=GeneID:102578245,Genbank:XM_015312074.1;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X2;transcript_id=XM_015312074.1
+NW_006238927.1	Gnomon	exon	73855	73973	.	+	.	ID=id3;Parent=rna0;Dbxref=GeneID:102578245,Genbank:XM_015312074.1;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X2;transcript_id=XM_015312074.1
+NW_006238927.1	Gnomon	exon	74172	74488	.	+	.	ID=id4;Parent=rna0;Dbxref=GeneID:102578245,Genbank:XM_015312074.1;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X2;transcript_id=XM_015312074.1
+NW_006238927.1	Gnomon	mRNA	73208	75755	.	+	.	ID=rna1;Parent=gene0;Dbxref=GeneID:102578245,Genbank:XM_006337894.2;Name=XM_006337894.2;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X1;transcript_id=XM_006337894.2
+NW_006238927.1	Gnomon	exon	73208	73525	.	+	.	ID=id5;Parent=rna1;Dbxref=GeneID:102578245,Genbank:XM_006337894.2;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X1;transcript_id=XM_006337894.2
+NW_006238927.1	Gnomon	exon	73674	73777	.	+	.	ID=id6;Parent=rna1;Dbxref=GeneID:102578245,Genbank:XM_006337894.2;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X1;transcript_id=XM_006337894.2
+NW_006238927.1	Gnomon	exon	73855	73973	.	+	.	ID=id7;Parent=rna1;Dbxref=GeneID:102578245,Genbank:XM_006337894.2;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X1;transcript_id=XM_006337894.2
+NW_006238927.1	Gnomon	exon	75507	75755	.	+	.	ID=id8;Parent=rna1;Dbxref=GeneID:102578245,Genbank:XM_006337894.2;gbkey=mRNA;gene=LOC102578245;product=universal stress protein A-like protein%2C transcript variant X1;transcript_id=XM_006337894.2
+NW_006238927.1	Gnomon	CDS	73306	73525	.	+	0	ID=cds0;Parent=rna1;Dbxref=GeneID:102578245,Genbank:XP_006337956.1;Name=XP_006337956.1;gbkey=CDS;gene=LOC102578245;product=universal stress protein A-like protein isoform X1;protein_id=XP_006337956.1
+NW_006238927.1	Gnomon	CDS	73674	73777	.	+	2	ID=cds0;Parent=rna1;Dbxref=GeneID:102578245,Genbank:XP_006337956.1;Name=XP_006337956.1;gbkey=CDS;gene=LOC102578245;product=universal stress protein A-like protein isoform X1;protein_id=XP_006337956.1
+NW_006238927.1	Gnomon	CDS	73855	73973	.	+	0	ID=cds0;Parent=rna1;Dbxref=GeneID:102578245,Genbank:XP_006337956.1;Name=XP_006337956.1;gbkey=CDS;gene=LOC102578245;product=universal stress protein A-like protein isoform X1;protein_id=XP_006337956.1
+NW_006238927.1	Gnomon	CDS	75507	75603	.	+	1	ID=cds0;Parent=rna1;Dbxref=GeneID:102578245,Genbank:XP_006337956.1;Name=XP_006337956.1;gbkey=CDS;gene=LOC102578245;product=universal stress protein A-like protein isoform X1;protein_id=XP_006337956.1
+NW_006238927.1	Gnomon	CDS	73306	73525	.	+	0	ID=cds1;Parent=rna0;Dbxref=GeneID:102578245,Genbank:XP_015167560.1;Name=XP_015167560.1;gbkey=CDS;gene=LOC102578245;product=universal stress protein A-like protein isoform X2;protein_id=XP_015167560.1
+NW_006238927.1	Gnomon	CDS	73674	73777	.	+	2	ID=cds1;Parent=rna0;Dbxref=GeneID:102578245,Genbank:XP_015167560.1;Name=XP_015167560.1;gbkey=CDS;gene=LOC102578245;product=universal stress protein A-like protein isoform X2;protein_id=XP_015167560.1
+NW_006238927.1	Gnomon	CDS	73855	73973	.	+	0	ID=cds1;Parent=rna0;Dbxref=GeneID:102578245,Genbank:XP_015167560.1;Name=XP_015167560.1;gbkey=CDS;gene=LOC102578245;product=universal stress protein A-like protein isoform X2;protein_id=XP_015167560.1
+NW_006238927.1	Gnomon	CDS	74172	74187	.	+	1	ID=cds1;Parent=rna0;Dbxref=GeneID:102578245,Genbank:XP_015167560.1;Name=XP_015167560.1;gbkey=CDS;gene=LOC102578245;product=universal stress protein A-like protein isoform X2;protein_id=XP_015167560.1
+NW_006238927.1	Gnomon	gene	212710	213282	.	-	.	ID=gene1;Dbxref=GeneID:107059702;Name=LOC107059702;gbkey=Gene;gene=LOC107059702;gene_biotype=protein_coding
+NW_006238927.1	Gnomon	mRNA	212710	213282	.	-	.	ID=rna2;Parent=gene1;Dbxref=GeneID:107059702,Genbank:XM_015306505.1;Name=XM_015306505.1;gbkey=mRNA;gene=LOC107059702;product=uncharacterized LOC107059702;transcript_id=XM_015306505.1
+NW_006238927.1	Gnomon	exon	212710	213282	.	-	.	ID=id9;Parent=rna2;Dbxref=GeneID:107059702,Genbank:XM_015306505.1;gbkey=mRNA;gene=LOC107059702;product=uncharacterized LOC107059702;transcript_id=XM_015306505.1
+NW_006238927.1	Gnomon	CDS	212710	213282	.	-	0	ID=cds2;Parent=rna2;Dbxref=GeneID:107059702,Genbank:XP_015161991.1;Name=XP_015161991.1;gbkey=CDS;gene=LOC107059702;product=uncharacterized protein LOC107059702;protein_id=XP_015161991.1
+NW_006238927.1	Gnomon	gene	241924	242669	.	-	.	ID=gene2;Dbxref=GeneID:107059723;Name=LOC107059723;gbkey=Gene;gene=LOC107059723;gene_biotype=protein_coding
+NW_006238927.1	Gnomon	mRNA	241924	242669	.	-	.	ID=rna3;Parent=gene2;Dbxref=GeneID:107059723,Genbank:XM_015306532.1;Name=XM_015306532.1;gbkey=mRNA;gene=LOC107059723;product=uncharacterized LOC107059723;transcript_id=XM_015306532.1
+NW_006238927.1	Gnomon	exon	242394	242669	.	-	.	ID=id10;Parent=rna3;Dbxref=GeneID:107059723,Genbank:XM_015306532.1;gbkey=mRNA;gene=LOC107059723;product=uncharacterized LOC107059723;transcript_id=XM_015306532.1
+NW_006238927.1	Gnomon	exon	241924	242307	.	-	.	ID=id11;Parent=rna3;Dbxref=GeneID:107059723,Genbank:XM_015306532.1;gbkey=mRNA;gene=LOC107059723;product=uncharacterized LOC107059723;transcript_id=XM_015306532.1
+NW_006238927.1	Gnomon	CDS	242394	242669	.	-	0	ID=cds3;Parent=rna3;Dbxref=GeneID:107059723,Genbank:XP_015162018.1;Name=XP_015162018.1;gbkey=CDS;gene=LOC107059723;product=uncharacterized protein LOC107059723;protein_id=XP_015162018.1
+NW_006238927.1	Gnomon	CDS	241924	242307	.	-	0	ID=cds3;Parent=rna3;Dbxref=GeneID:107059723,Genbank:XP_015162018.1;Name=XP_015162018.1;gbkey=CDS;gene=LOC107059723;product=uncharacterized protein LOC107059723;protein_id=XP_015162018.1

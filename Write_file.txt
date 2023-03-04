@@ -1,0 +1,3 @@
+
+This text is meant to verify you successfully wrote to the files.
+It should now appear both of your files.
