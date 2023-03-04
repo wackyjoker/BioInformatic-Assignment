@@ -1,0 +1,5 @@
+This line should NOT disappear after the completion of Practical 1.
+This text is meant to verify you successfully wrote to the files.
+It should now appear both of your files.
+This text is meant to verify you successfully wrote to the files.
+It should now appear both of your files.
